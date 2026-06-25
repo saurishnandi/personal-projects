@@ -1,0 +1,38 @@
+name: Update FIFA Results
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-results:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update results JSON
+        run: python scripts/update_results.py
+
+      - name: Commit updated results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/results.json
+
+          if git diff --cached --quiet; then
+            echo "No result changes to commit"
+          else
+            git commit -m "Auto update FIFA results"
+            git push
+          fi
