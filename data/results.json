@@ -639,8 +639,8 @@
       "date": "2026-06-25",
       "group": "F",
       "team1": "Tunisia",
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 3,
       "team2": "Netherlands",
       "venue": "Kansas City Stadium"
     },
@@ -649,8 +649,8 @@
       "date": "2026-06-25",
       "group": "F",
       "team1": "Japan",
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 1,
       "team2": "Sweden",
       "venue": "Dallas Stadium"
     },
