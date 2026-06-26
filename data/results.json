@@ -679,8 +679,8 @@
       "date": "2026-06-26",
       "group": "I",
       "team1": "Norway",
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 4,
       "team2": "France",
       "venue": "Boston Stadium"
     },
