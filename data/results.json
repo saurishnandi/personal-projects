@@ -659,8 +659,8 @@
       "date": "2026-06-25",
       "group": "D",
       "team1": "Türkiye",
-      "score1": null,
-      "score2": null,
+      "score1": 3,
+      "score2": 2,
       "team2": "USA",
       "venue": "Los Angeles Stadium"
     },
@@ -669,8 +669,8 @@
       "date": "2026-06-25",
       "group": "D",
       "team1": "Paraguay",
-      "score1": null,
-      "score2": null,
+      "score1": 0,
+      "score2": 0,
       "team2": "Australia",
       "venue": "San Francisco Bay Area Stadium"
     },
