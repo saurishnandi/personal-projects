@@ -779,8 +779,8 @@
       "date": "2026-06-27",
       "group": "J",
       "team1": "Algeria",
-      "score1": null,
-      "score2": null,
+      "score1": 3,
+      "score2": 3,
       "team2": "Austria",
       "venue": "Kansas City Stadium"
     },
@@ -789,8 +789,8 @@
       "date": "2026-06-27",
       "group": "J",
       "team1": "Jordan",
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 3,
       "team2": "Argentina",
       "venue": "Dallas Stadium"
     }
